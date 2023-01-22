@@ -1,0 +1,202 @@
+/* Buttons */
+.main-outline-btn {
+    border-style: solid;
+    border-color: #315497;
+    border-width: 1px;
+    border-radius: 0;
+}
+
+.main-outline-btn:hover {
+    border-style: solid;
+    border-color: #315497;
+    border-width: 1px;
+    border-radius: 0;
+}
+
+.main-btn {
+    background-color: #315497;
+    color: white;
+    border-radius: 0;
+}
+
+.main-btn:hover {
+    background-color: #315497;
+    color: white;
+    border-radius: 0;
+}
+
+/* Colors */
+.main-color {
+    color: #505050;
+}
+
+.second-color {
+    color: #E9E9E9;
+}
+
+.third-color {
+    color: #315497;
+}
+
+/* Tobar */
+.topbar {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #E7E7E7;
+}
+
+/* Main navbar */
+.main-navbar {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #E7E7E7;
+}
+
+a.nav-link {
+    padding-right: 18px !important;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+a.nav-link.active {
+    color: #315497 !important;
+    border-bottom: solid 1px #315497;
+}
+
+/* Welcome message */
+.welcome-message {
+    background-color: #315497;
+}
+
+/* Main page */
+main {
+    background-color: #FAFAFA;
+}
+
+/* Sidepanel */
+.sidepanel-card {
+    border: none;
+    border-radius: 0;
+}
+
+.sidepanel-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*Login Modal & Register Modal */
+.login-modal>.modal-dialog>.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.auth-inputs {
+    border-radius: 0;
+    border-color: #315497;
+}
+
+/*Auth links*/
+.auth-link {
+    text-decoration: none;
+}
+
+.auth-link:hover {
+    color: #505050;
+}
+
+/*Footer*/
+.footer {
+    background-color: #315497;
+    color: #E7E7E7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-title {
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-link {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.sub-footer {
+    background-color: #233e6e;
+}
+
+/*Forum*/
+.main-category-forum.card {
+    background-color: white;
+    border-radius: 0;
+    border-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.main-cat {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sub-cat-title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub-cat-desc {
+    font-size: 16px;
+}
+
+/* Cursor Browser Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3e6abf;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #315497;
+}
+
+/*Shop card*/
+.shop-card.card {
+    border-radius: 0;
+    border: none;
+}
+.shop-card-title{
+    font-size: 18px;
+}
+.shop-info {
+    border-style: solid;
+    border-color: #315497;
+    border-width: 1px;
+    width: 100%;
+    max-width: 500px;
+    padding-left: 10px;
+}
+.shop-card-index{
+    border: none;
+    background-color: #fafafa;
+}
